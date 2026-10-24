@@ -1,0 +1,19 @@
+# Python virtual environments
+.venv/
+venv/
+**/.venv/
+
+# Secrets
+.env
+.env.*
+**/.env
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Editor and test caches
+.vscode/
+.pytest_cache/
+.mypy_cache/

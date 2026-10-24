@@ -1,0 +1,21 @@
+/* Theme settings */
+:root {
+    --brand-color: #1565c0;
+    --spacing: 12px;
+}
+
+/* Card styling */
+.card, .card:hover {
+    color: var(--brand-color);
+    margin: 8px 12px;
+    content: "left; right";
+    border: 1px solid #ddd !important;
+}
+
+/* Responsive styling */
+@media (min-width: 768px) {
+    .card {
+        display: grid;
+        gap: var(--spacing);
+    }
+}
